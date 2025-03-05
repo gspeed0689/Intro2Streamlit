@@ -1,12 +1,8 @@
-[client]
-showErrorDetails = "none"
-
 [theme]
 primaryColor = "#FFCD00"
 backgroundColor = "black"
-secondaryBackgroundColor =
-textColor =
-font =
+secondaryBackgroundColor = "#333333"
+textColor = "#ffcd00"
 
 [browser]
 gatherUsageStats = false

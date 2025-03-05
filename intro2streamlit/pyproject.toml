@@ -9,9 +9,10 @@ dependencies = [
     "numpy>=2.2.3",
     "pandas>=2.2.3",
     "plotly>=6.0.0",
-    "pydantic>=2.10.6",
     "requests>=2.32.3",
+    "ruff>=0.9.9",
     "sqlalchemy>=2.0.38",
     "streamlit>=1.43.0",
     "streamlit-folium>=0.24.0",
+    "streamlit-image-coordinates>=0.2.0",
 ]
