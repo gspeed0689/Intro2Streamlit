@@ -23,7 +23,7 @@ st.select_slider("Wavelength", ["red", "orange", "yellow", "green", "blue", "vio
 
 st.write("There are also some more advanced inputs.")
 
-st.color_picker("Pick a color")
+st.color_picker("Pick a color", value="#c00a35")
 
 st.date_input("Select a date")
 
