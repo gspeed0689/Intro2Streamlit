@@ -19,6 +19,8 @@ Here RondstadRail, RondstadAir, and ExtraRondstad would drive clockwise and coun
 no back and forth journies. 
 """
 
+st.markdown(map_intro_text)
+
 rondstad_lines = "assets/RondstadRail.geojson"
 rondstad_points = "assets/RondstadStations.csv"
 
