@@ -1,9 +1,5 @@
 import streamlit as st
 from streamlit_image_coordinates import streamlit_image_coordinates as sic
-from pydantic import BaseModel
-import streamlit_pydantic as sp
-from datetime import datetime
-from typing import List
 
 intro_text = """# Forms and Input
 
@@ -48,35 +44,3 @@ st.write("There are many first and third party components for image annotation. 
 value = sic("assets/cat.jpg", width=500)
 if value:
     st.write(f"You clicked on {value}")
-
-st.header("Pydantic Forms")
-
-pydantic_intro = """
-Pydantic is a library for enforcing typing and defining a structure of datasets, with automatic conversion to and from JSON, and is commonly used with FastAPI. 
-Pydantic can be thought of as a more powerful version of the batteries-included `@dataclass`. 
-You can create a data structure with typing and default values in Pydantic, and then automatically create a form in Streamlit using `streamlit-pydantic`. 
-
-Here, let's consider this model for data for the programming cafe:
-
-    from pydantic import BaseModel
-    from typing import List
-    from datetime import datetime
-
-    class ProgrammingCafe(BaseModel):
-        Location: str = "Bucheliuszaal"
-        DateTime: datetime
-        Presenter: str
-        Length: float
-        Topics: List[str]
-"""
-
-class ProgrammingCafe(BaseModel):
-    Location: str = "Bucheliuszaal"
-    DateTime: datetime
-    Presenter: str
-    Length: float
-    Topics: List[str]
-
-form_data = sp.pydantic_form(key="ProgrammingCafe", model=ProgrammingCafe)
-if form_data:
-    st.json(form_data)
