@@ -46,3 +46,18 @@ st.markdown(audio_md)
 
 st.link_button("View the overview video", "https://youtu.be/DvkIuB-6pw0")
 
+catalog_md = """
+## Catalog Image Tool
+
+For the new Earth Sciences Lab Photography Lab we would like to have the highest quality images, 
+and a part of that for museum collections is to have clear in-photo metadata. 
+I created a Streamlit app that accepts a CSV file, parses that, and makes the column and data in the column available for 
+displaying on an e-ink screen on a Raspberry Pi. 
+The app currently runs on the Pi, however it is very slow, 
+it will be changed so the app runs on the computer in the lab, and interacts with a FastAPI server on the Pi. 
+The video shows the app running:
+"""
+
+st.markdown(catalog_md)
+
+st.button("View the catalog tool video", "https://youtu.be/NHVl-6ijqKU")
