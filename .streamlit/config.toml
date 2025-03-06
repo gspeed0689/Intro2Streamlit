@@ -1,7 +1,7 @@
 [theme]
-primaryColor = "#ffd93b"
-backgroundColor = "#ffcd00"
-secondaryBackgroundColor = "#F3965E"
+primaryColor = "#000000"
+backgroundColor = "#eeeeee"
+secondaryBackgroundColor = "#ffcd00"
 textColor = "#111111"
 
 [browser]
