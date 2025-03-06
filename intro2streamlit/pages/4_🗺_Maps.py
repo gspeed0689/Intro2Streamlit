@@ -21,8 +21,8 @@ no back and forth journies.
 
 st.markdown(map_intro_text)
 
-rondstad_lines = "assets/RondstadRail.geojson"
-rondstad_points = "assets/RondstadStations.csv"
+rondstad_lines = "intro2streamlit/assets/RondstadRail.geojson"
+rondstad_points = "intro2streamlit/assets/RondstadStations.csv"
 
 folium_map = folium.Map([52, 5.2])
 

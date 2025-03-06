@@ -41,6 +41,6 @@ st.subheader("Image annotations")
 
 st.write("There are many first and third party components for image annotation. Please click on the cat that sold me pears by Fort Rijnauwen")
 
-value = sic("assets/cat.jpg", width=500)
+value = sic("intro2streamlit/assets/cat.jpg", width=500)
 if value:
     st.write(f"You clicked on {value}")
