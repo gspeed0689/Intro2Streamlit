@@ -50,4 +50,4 @@ box_violin = st.pills("Select a chart type",
 graph = chart_types[box_violin]
 
 box = graph(df, y=data_column, x=category_column)
-st.plotly_chart(box)
+st.plotly_chart(box, height=800)
