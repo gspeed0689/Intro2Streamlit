@@ -14,3 +14,5 @@ with open("intro2streamlit/assets/intro_markdown_01.md", "r") as f:
     markdown_01 = f.read()
 
 st.markdown(markdown_01)
+
+st.link_button("View this app source on GitHub", "https://github.com/gspeed0689/Intro2Streamlit/tree/main")
