@@ -60,4 +60,4 @@ The video shows the app running:
 
 st.markdown(catalog_md)
 
-st.button("View the catalog tool video", "https://youtu.be/NHVl-6ijqKU")
+st.link_button("View the catalog tool video", "https://youtu.be/NHVl-6ijqKU")
