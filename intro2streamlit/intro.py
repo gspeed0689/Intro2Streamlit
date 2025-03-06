@@ -8,6 +8,8 @@ st.set_page_config(
 
 st.title("Welcome to the Programming Cafe Introduction to Streamlit!")
 
+st.image("intro2streamlit/assets/qr_code.png")
+
 with open("intro2streamlit/assets/intro_markdown_01.md", "r") as f:
     markdown_01 = f.read()
 

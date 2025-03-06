@@ -1,8 +1,6 @@
 Welcome to this introduction to Streamlit at the UU Programming Cafe!
 I have made this demonstration of Streamlit in Streamlit, it is very easy to get started with. 
 
-![QR Code to access this app on your computer]("intro2streamlit/assets/qr_code.png")
-
 ## What is Streamlit?
 
 Streamlit is a web interface for Python to make dashboards and interactive experiences. 
